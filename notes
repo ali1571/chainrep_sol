@@ -1,0 +1,9 @@
+| # | Metric                 |
+| - | ---------------------- |
+| 1 | total_txs             |
+| 2 | first_tx_date        |
+| 3 | last_tx_date         |
+| 4 | unique_tokens_traded |
+| 5 | failed_tx_count      |
+| 6 | total_sol_spent      |
+| 7 | rugged_tokens_count  |
