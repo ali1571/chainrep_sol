@@ -4,7 +4,7 @@ import time
 ALCHEMY_RPC_URL = "https://solana-mainnet.g.alchemy.com/v2/j-yxBJanUHFF1MSU9zablLOWczr8-IGW"
 
 
-INPUT_FILE = "kakashi UTT"
+INPUT_FILE = "../metrics/kakashi UTT"
 OUTPUT_FILE = "kakashiUTTnames"
 
 def load_mints(filename):

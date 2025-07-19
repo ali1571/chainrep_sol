@@ -1,6 +1,6 @@
 import json
 modifiedLines = []
-with open('X:\\code\\chainrep_sol\\metrics\\kakashiUTTnames', 'r') as f:
+with open('/utils/kakashiUTTnames', 'r') as f:
         lines = f.readlines()
         for line in lines:
             line = line.strip()
