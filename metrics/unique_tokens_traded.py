@@ -164,18 +164,12 @@ if __name__ == "__main__":
     wallet = "5h7yzwmrGoG2BmxNCqNR2EnSv1LWCFo7n6SKSh5ZWkfE"
     mint_result = get_unique_mints(wallet)
     mints = mint_result
-    for mint in mints:
-        print(mint)
-        mintdata = fetch_mintData(mint)
-        with open ('kakashiMintNames.txt', 'a') as f:
-            f.write(f"{mintdata} \n")
-        print(mintdata)
+
 
 '''
     # Output as JSON
     result = {
         "mints": mints,
-        "mintdata": mintdata
     }
     print(json.dumps(result, indent=2))
 
